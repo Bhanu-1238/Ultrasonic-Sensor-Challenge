@@ -33,6 +33,12 @@ The project's primary goal is to interface an ultrasonic sensor (such as the HC-
 ### Live Expressions:
 Utilized STM32CubeIDE's Live Expressions feature to monitor `echo_PW` and `distance` in real-time without halting the program execution.
 
+## Connections
+1. vcc (HC-SR04) -> 5V (STM32F407G-DISC1 BOARD)
+2. Trig          -> PE9
+3. Echo          -> PE11
+4. Gnd           -> GND
+
 ### Debugging Steps:
 1. Launch the debugger in STM32CubeIDE.
 2. Resume program execution.
